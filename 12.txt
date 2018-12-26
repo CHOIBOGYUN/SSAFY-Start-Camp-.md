@@ -1,0 +1,89 @@
+
+sw 전공
+
+
+
++프로그래밍, SW 학습방법
+
+- 어떻게 하면 내가 원하는 방식 [방향성을 제공하는 프로그램]
+
++프로젝트, 포트폴리오 관리
+
+- 자신의 결과를 보여주는 게 중요 
+- 앞선 단어 교육은 어디에서던 가능 하지만 방향성제공 및 포트폴리오를 통해 자기주도로!!
+
+
+1week
+- 본격 1월2일부터 수업 시작
+- 한 학기 미리보기 [연말 자랑거리 가져가기]
+
+Keyword based Catbot 
+Telegran chatbot
+인생의 첫 배포.
+
+-이해가 안되는 게 있지만 추후에 배우니깐 가볍게 생각해라!
+
+Ice breaking
+
+수업 중간에 과감없이 질문해도 된다
+약간 시끌벅적 수업 괜찮음
+
+
+Computational Thinking
+- 큰 문제가 있을 때, 잘게 쪼개는 해결하는 방식
+- 패턴인식
+- 복잡한 것을 추상화 시켜 간단하게
+- 알고리즘 방식
+
+- 어떻게 프로그램을 사용하나!!
+
+Computer 는 계산과 저장을 잘하는 친구
+-What for ? 왜 계속 발전을 할까?
+
+컴퓨터 프로그래밍
+
+-컴퓨터에 지시를 시키는 것
+
+
+아마존 버튼 누르면 자동으로 배달
+-일상에서도 사용 가능
+-버튼 누르면 물을 주거나 문을 열어주거나
+
+
+오픈 소스
+-누구나 코드 열람이 가능한
+
+
+
+dust ->  박스 상자 (숫자 0부터 시작)
+
+dictionaray ->  견출지 붙인 박스들의 묶음 
+
+
+
+random.sample(리스트,개수)
+
+임의적으로 비복원
+
+if문 for 문(미세먼지)
+
+코스피
+
+requests rul을 주면 요청을 받아주ㅜㅁ
+
+
+코스피 하는 방법
+
+import requests
+from bs4 import BeautifulSoup
+
+url = 'https://finance.naver.com/sise/'
+
+r = requests.get(url).text
+soup = BeautifulSoup(r,'html.parser')
+select = soup.select_one("#KOSPI_now")
+print(select.text)
+
+
+깃에다가 내가 배운곳을 올리는 방법을 내일 배운다
+나중 포트폴리오
